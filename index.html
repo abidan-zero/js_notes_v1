@@ -15,34 +15,67 @@
     <link rel="stylesheet" type="text/css" href="assets/css.css" media="screen" />
   </head>
   <body>
-  <!-- top nav bar -->
-  <div id='top_nav'>
-  
-    <div id='main_menu'>
-      Menu
-    </div>
-    <div id='sub_menu_a'>
-      <div id='sm_a_1' class='sub_menus'>
-        Add
+    <!-- top nav bar -->
+    <div id='top_nav'>
+    
+      <div id='main_menu'>
+        Menu
       </div>
-      <div id='sm_a_2' class='sub_menus'>
-        two
+      <div id='sub_menu_a'>
+        <div id='sm_a_1' class='sub_menus'>
+          Add
+        </div>
+        <div id='sm_a_2' class='sub_menus'>
+          two
+        </div>
+        <div id='sm_a_3' class='sub_menus'>
+          three
+        </div>
       </div>
-      <div id='sm_a_3' class='sub_menus'>
-        three
+    
+      <div id='top_right_btn'>
+        <>
       </div>
+    
     </div>
     
-  </div>
-  
-  <div id='panel_a'>
-    <div id='panel_a_title'>
-      Notes List
-    </div>
+    <div id='panels_container'>
+      <div id='notesList_panel'>
+        <div id='panel_a_title' class='panel_title'>
+          Notes List
+        </div>
     
-    <div id='panel_a_list'>
-     Lists
+        <div id='panel_a_list' class='note_content'>
+          <div class='note_item_row'>
+            1 note title
+          </div>
+          <div class='note_item_row'>
+            2 note title
+          </div>
+          <div class='note_item_row'>
+            3 note title
+          </div>
+        </div>
+      </div>
+    
+      <div id='newNote_panel'>
+        <div class='panel_title'>
+          New note
+        </div>
+        <div class='panel_content'>
+          <div class='note_title'>
+            Title: <br>
+            <input type='text' />
+          </div>
+          <div class='note_content'>
+            Content: <br>
+            <textarea></textarea>
+            <br>
+            <button>Save</button>
+          </div>
+        </div>
+      </div>
+    
     </div>
-  </div>
   </body>
 </html>
